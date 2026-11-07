@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Partitioning and formatting a hard disk | Agatha Smart Learning Hub</title>
+<meta name="description" content="Prepare a drive for use.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem('theme')}catch(e){}if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t</script>
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="brand" href="index.html"><span class="logo"><svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.900V17h2V9L12 3zM5 13.200V17c0 1.700 3.100 3 7 3s7-1.300 7-3v-3.800l-7 3.800-7-3.800z"/></svg></span><span>AGATHA<small>SMART LEARNING HUB</small></span></a>
+  <nav>
+    <a class="l" href="index.html">Home</a>
+    <a class="l" href="index.html#about">About</a>
+    <a class="l" id="navContact" href="index.html#email">Contact</a>
+    <a class="cta" href="lesson-1.html">Start Learning</a>
+  <button class="tt" id="themeBtn" type="button" aria-label="Switch between light and dark mode" title="Light / dark mode"><svg class="moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.800z"/></svg><svg class="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.900 4.900l1.400 1.400M17.700 17.700l1.400 1.400M2 12h2M20 12h2M4.900 19.100l1.400-1.400M17.700 6.300l1.400-1.400"/></svg></button></nav>
+</div></header>
+
+<main><div class="wrap layout">
+<aside class="side"><a href="lesson-1.html">1. Basics of computer hardware maintenance</a><a href="lesson-2.html">2. Hardware components</a><a href="lesson-3.html">3. The motherboard and internal components</a><a href="lesson-4.html">4. Hardware specifications</a><a href="lesson-5.html">5. Assembling a computer</a><a href="lesson-6.html" class="on">6. Partitioning and formatting a hard disk</a><a href="lesson-7.html">7. Data backup and restore</a><a href="lesson-8.html">8. Troubleshooting hardware problems</a><a href="lesson-9.html">9. Routine maintenance</a><a href="lesson-10.html">10. Starting a hardware maintenance business</a></aside>
+<article class="lesson"><a class="back" href="index.html">&larr; All sections</a><div class="tag">Section 6 of 10</div><h1>Partitioning and formatting a hard disk</h1><p>Prepare a drive for use.</p><h3>1. What partitions are</h3><p>A partition is a logical section of a physical disk. Separate partitions let you keep the OS apart from personal data, or install two operating systems. Two partition styles exist: <b>MBR</b> (older; supports disks up to 2 TB and 4 primary partitions; used with legacy BIOS) and <b>GPT</b> (modern; supports disks larger than 2 TB and many partitions; required for UEFI booting).</p><h3>2. Formatting and file systems</h3><ul><li><b>NTFS:</b> Windows default; large files and permissions.</li><li><b>FAT32:</b> very compatible, but a single file cannot exceed 4 GB.</li><li><b>exFAT:</b> flash drives and memory cards with large files.</li><li><b>ext4</b> (Linux) and <b>APFS</b> (Mac) are used by those systems.</li></ul><p>A <b>quick format</b> only clears the file table; a <b>full format</b> also scans for bad sectors and takes longer. In Windows: press Win + R, run <b>diskmgmt.msc</b>, right-click the disk space and choose New Simple Volume or Format.</p><h3>3. Common mistakes to avoid</h3><ul><li>Formatting the wrong disk: always confirm the drive letter, size and label.</li><li>Not backing up first: formatting makes files hard to recover.</li><li>Deleting the EFI or recovery partitions that the system needs to boot.</li><li>Converting MBR to GPT without a backup.</li><li>Assuming a quick format securely erases data; it does not.</li></ul><div class="pn"><a href="lesson-5.html">&larr; Previous</a><a class="go" href="lesson-7.html">Next &rarr;</a></div></article>
+</div></main>
+
+<footer><div class="wrap">
+  <div class="fg">
+    <div><div class="brand" style="color:#fff;margin-bottom:10px"><span class="logo"><svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.900V17h2V9L12 3zM5 13.200V17c0 1.700 3.100 3 7 3s7-1.300 7-3v-3.800l-7 3.800-7-3.800z"/></svg></span><span>AGATHA<small>SMART LEARNING HUB</small></span></div><p style="margin:0;max-width:320px">Learn computer hardware maintenance, step by step.</p></div>
+    <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="index.html#about">About</a><a href="lesson-1.html">Start Learning</a></div>
+    <div><h4>Contact</h4><a href="index.html#email">Send an email</a></div>
+  </div>
+  <div class="copy">&copy; Agatha Smart Learning Hub. All rights reserved.</div>
+</div></footer>
+
+<a class="wa" id="waBtn" href="https://wa.link/6a9edf" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.4.7 4.7 1.9 6.600L3.200 29l7.100-2.100c1.800 1 3.800 1.500 5.700 1.500 7 0 12.600-5.600 12.600-12.500S23 3 16 3zm0 22.800c-1.800 0-3.600-.5-5.100-1.400l-.4-.2-4.200 1.200 1.200-4.100-.3-.4a10.200 10.200 0 0 1-1.600-5.500C5.600 9.800 10.300 5.200 16 5.200s10.400 4.600 10.400 10.300S21.700 25.800 16 25.800zm5.700-7.600c-.3-.2-1.800-.9-2.100-1s-.5-.2-.7.200-.8 1-1 1.200-.4.200-.7.100a8.400 8.400 0 0 1-4.200-3.700c-.3-.6.300-.5.900-1.700.1-.2 0-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.100-.8.400s-1 1-1 2.500 1.100 2.900 1.200 3.100c.2.200 2.100 3.300 5.200 4.500 2.900 1.100 3.100.9 3.600.8.600-.1 1.800-.7 2-1.400s.2-1.300.2-1.400-.3-.2-.6-.4z"/></svg>
+</a>
+<script src="theme.js"></script>
+</body>
+</html>
