@@ -130,7 +130,7 @@ footer a:hover{color:#fff}
 }
 /* phones */
 @media(max-width:640px){
-.wrap{padding:0 18px}
+.wrap{padding-inline:18px}.layout{padding-block:22px}
 .hg{padding-block:34px;gap:24px}
 .hero p.lead{font-size:16px}
 section{padding:32px 0 8px}
